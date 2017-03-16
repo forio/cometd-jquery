@@ -50,6 +50,9 @@
                     type: 'POST',
                     contentType: 'application/json;charset=UTF-8',
                     data: packet.body,
+                    xhrFields: {
+                        withCredentials: true
+                    },
                     beforeSend: function(xhr)
                     {
                         // Has no effect if the request is not cross domain
@@ -83,6 +86,9 @@
                     type: 'GET',
                     dataType: 'jsonp',
                     jsonp: 'jsonp',
+                    xhrFields: {
+                        withCredentials: true
+                    },
                     data: {
                         // In callback-polling, the content must be sent via the 'message' parameter
                         message: packet.body

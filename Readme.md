@@ -1,3 +1,5 @@
+Forked from wilmoore/cometd-jquery to solve issue with cross-domain cometd calls [EPICENTER-2779]
+
 # cometd-jquery [![NPM version](https://badge.fury.io/js/cometd-jquery.png)](http://badge.fury.io/js/cometd-jquery)
 
 > JavaScript CometD Bayeux implementation with jQuery bindings packaged for npm.
